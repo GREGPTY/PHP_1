@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --black: rgb(0,0,0);
+    --pink_soft: rgba(255, 68, 227, 0.222);
+    --white: rgb(255, 255, 255);
+    --white_sdown: rgb(240, 240, 240);
+    --orange: rgb(255, 166, 0);
+    --pink: rgba(244, 35, 230, 0.871);
+    --white_soft: rgba(255, 255, 255, 0.112);
+    --black_soft: rgba(0,0,0,0.1);
+    --black_fsoft: rgba(0,0,0,0.5);
+    --dark_gray: rgb(34, 34, 34);
+    --celeste: rgb(29, 161, 242);
+}
+
+body {
+    height: 100vh;
+    width: 100vw; /* Agrega esto si el body no se expande al ancho completo por defecto */
+    background-color: var(--white);
+    background-image: url('/PPP/images/BackgorundPG.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; /* Evita desbordamientos accidentales */
+}
+
+.contact-section {
+    position: relative;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra el contenido vertical y horizontalmente */
+    text-align: center;
+}
+.contact-container{
+    align-items: center;
+
+}
+
+.contact-section h1 {
+    color: var(--pink);
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background: var(--white_soft); /* Fondo translúcido */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--black_soft);
+    width: 90%; /* Ajuste de ancho para mobile y padding */
+    max-width: 600px; /* Máximo ancho del formulario */
+}
+
+.form-group label {
+    color: var(--dark_gray);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--celeste);
+    border-radius: 4px;
+    background: var(--white_sdown);
+}
+
+button {
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: var(--pink);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 10px;
+    }
+}

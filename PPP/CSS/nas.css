@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --black: rgb(0,0,0);
+    --pink_soft: rgba(255, 68, 227, 0.222);
+    --white: rgb(255, 255, 255);
+    --white_sdown: rgb(240, 240, 240);
+    --orange: rgb(255, 166, 0);
+    --pink:rgba(244, 35, 230, 0.871);
+    --white_soft: rgba(255, 255, 255, 0.112);
+    --black_soft: rgba(0,0,0,0.1);
+    --black_fsoft: rgba(0,0,0,0.5);
+    --dark_gray: rgb(34, 34, 34);
+    --celeste: rgb(29, 161, 242);
+}
+/*Tablas*/
+tr{
+    width: 100%;
+}
+
+ .titulo_tabla {
+    background-color: var(--orange);
+}
+.table_nascar{
+    position: relative;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra el contenido vertical y horizontalmente */
+    text-align: center;
+}
+.TableClaseDeMoneda{
+    position: relative;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra el contenido vertical y horizontalmente */
+    text-align: center;
+}
+.action_btn, .converButton, .ConversionBoton{
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+.ConversionBoton{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.action_btn:hover , .ConversionBoton:hover{
+    color: var(--orange);
+    background-color: var(--black);
+    scale: 1.05;
+}
+.action_btn:active, .ConversionBoton:active{
+    scale: 0.95;
+}

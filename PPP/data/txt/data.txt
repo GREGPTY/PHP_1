@@ -1,0 +1,13 @@
+$log = [
+                'name'=> $user?$user->getFullname():'Anónimo',
+                'utype'=> $user?$user->getUtype():1,
+                'code'=>$code,
+                'activity'=>$eventActivity,
+                'details'=>serialize([
+                    "before"=>$this->log_before?$this->log_before:null,
+                    "after"=>$after,
+                    "remote_address"=>$ip?$ip:null
+                ]),
+                'module'=>$module,
+                'created'=>$currentDate->format('Y-m-d\TH:i:s.u')
+            ];

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --black: rgb(0,0,0);
+    --pink_soft: rgba(255, 68, 227, 0.222);
+    --white: rgb(255, 255, 255);
+    --orange: rgb(255, 166, 0);
+    --pink:rgba(244, 35, 230, 0.871);
+    --white_soft: rgba(255, 255, 255, 0.112);
+    --black_soft: rgba(0,0,0,0.1);
+    --black_fsoft: rgba(0,0,0,0.5);
+    --black_msoft: rgba(0,0,0,0.25);
+    --blue_soft: rgba(0, 17, 255, 0.125);
+    --red_soft: rgba(255, 0, 0, 0.125);
+}
+
+body{
+    height: 100vh;
+    background-color: var(--white);
+    background-image: url('/PPP/images/BackgorundPG.png');
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1rem;
+}
+
+a:hover{
+   color: var(--orange); 
+}
+
+/*Tables*/
+.tabla-titulo {
+    background-color: var(--black_msoft); /* Color de fondo para el título */
+    text-align: center; /* Centrar el texto del título */
+    font-weight: bold; /* Negrita para el texto del título */
+  }
+  .tabla-celdas {
+    width: 100%; /* Ancho completo para la tabla */
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+    margin-bottom: 20px; /* Margen inferior para separar las tablas */
+  }
+  .tabla-celdas td {
+    border: 1px solid #ddd; /* Borde para las celdas */
+    padding: 8px; /* Relleno para las celdas */
+  }
+
+  /*T2*/
+  th, td{
+    padding: 15px;
+  }
+  .L2 table, .L2Mobile table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px solid var(--black_soft);
+  }
+  .L2 th,.L2 td, .L2Mobile th, .L2Mobile td {
+    border: 0px solid var(--black_soft);
+    padding: 10px;
+    text-align: center;
+  }
+  .L2 .titulo, .L2Mobile .titulo {
+    background-color: var(--black_soft);
+  }
+
+  .L2 .foto img{
+    width: 100%;
+    border-radius: 5px;
+  }
+  .L2 .foto_sq, .L2Mobile .foto_sq{
+    width: 340px;
+    height: 340px;
+  }
+  .L2 .foto, .L2Mobile .foto{
+    width: 30vw;
+    max-width: 800px;
+    min-width: 100px;
+    margin: auto;
+  }
+ 
+  .L2 .foto_team, .L2Mobile .foto_team{
+    width: 600px;
+    height: 325px;
+  }
+
+  .L2 .informacion, .L2Mobile .informacion{
+    background-color: var(--white_soft); /* Color de fondo para las celdas de información */
+    height: 100px; /* Ajusta la altura como prefieras */
+  }
+
+  /*L2 Mobile*/
+  .L2Mobile{
+    display: none;
+  }
+  .L2Mobile .foto img{
+    width: 50%;
+    border-radius: 5px;
+  }
+  /*.L2Mobile th, .L2Mobile td{
+    padding: 15px;
+  }
+  .L2Mobile table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0px solid var(--black_soft);
+  }
+  .L2Mobile th,.L2Mobile td {
+    border: 0px solid var(--black_soft);
+    padding: 10px;
+    text-align: center;
+  }
+  .L2Mobile .titulo {
+    background-color: var(--black_soft);
+  }
+*/
+  
+  /*
+  .L2Mobile .foto_sq{
+    width: 340px;
+    height: 340px;
+  }
+  .L2Mobile .foto{
+    width: 10vw;
+    max-width: 200px;
+    min-width: 100px;
+    margin: auto;
+  }
+ 
+  .L2Mobile .foto_team{
+    width: 600px;
+    height: 325px;
+  }
+
+  .L2Mobile .informacion {
+    background-color: var(--white_soft); /* Color de fondo para las celdas de información 
+    height: 100px; 
+  }
+  /* Ajusta la altura como prefieras */
+  
+  @media(max-width: 840px){
+    .L2{
+        display: none;
+    }
+    .L2Mobile{
+      display: block;
+    }
+}

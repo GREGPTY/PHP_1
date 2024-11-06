@@ -1,0 +1,273 @@
+Array
+(
+    [Name] => Edward the Eldea
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 899-925
+    [ID] => 1
+)
+
+Array
+(
+    [Name] => Athelstan
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 925-940
+    [ID] => 2
+)
+
+Array
+(
+    [Name] => Edmund
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 940-946
+    [ID] => 3
+)
+
+Array
+(
+    [Name] => Edred
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 946-955
+    [ID] => 4
+)
+
+Array
+(
+    [Name] => Edwy
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 955-959
+    [ID] => 5
+)
+
+Array
+(
+    [Name] => Edward the Elder
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 899-925
+    [ID] => 6
+)
+
+Array
+(
+    [Name] => Athelstan
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 925-940
+    [ID] => 7
+)
+
+Array
+(
+    [Name] => Edmund
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 940-946
+    [ID] => 8
+)
+
+Array
+(
+    [Name] => Edred
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 946-955
+    [ID] => 9
+)
+
+Array
+(
+    [Name] => Edwy
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 955-959
+    [ID] => 10
+)
+
+-----
+Array
+(
+    [Name] => Edward the Eldes
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 899-925
+    [ID] => 1
+)
+
+Array
+(
+    [Name] => Athelstan
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 925-940
+    [ID] => 2
+)
+
+Array
+(
+    [Name] => Edmund
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 940-946
+    [ID] => 3
+)
+
+Array
+(
+    [Name] => Edred
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 946-955
+    [ID] => 4
+)
+
+Array
+(
+    [Name] => Edwy
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 955-959
+    [ID] => 5
+)
+
+Array
+(
+    [Name] => Edward the Elder
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 899-925
+    [ID] => 6
+)
+
+Array
+(
+    [Name] => Athelstan
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 925-940
+    [ID] => 7
+)
+
+Array
+(
+    [Name] => Edmund
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 940-946
+    [ID] => 8
+)
+
+Array
+(
+    [Name] => Edred
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 946-955
+    [ID] => 9
+)
+
+Array
+(
+    [Name] => Edwy
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 955-959
+    [ID] => 10
+)
+
+-----
+Array
+(
+    [Name] => Edward the Elded
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 899-925
+    [ID] => 1
+)
+
+Array
+(
+    [Name] => Athelstan
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 925-940
+    [ID] => 2
+)
+
+Array
+(
+    [Name] => Edmund
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 940-946
+    [ID] => 3
+)
+
+Array
+(
+    [Name] => Edred
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 946-955
+    [ID] => 4
+)
+
+Array
+(
+    [Name] => Edwy
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 955-959
+    [ID] => 5
+)
+
+Array
+(
+    [Name] => Edward the Elder
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 899-925
+    [ID] => 6
+)
+
+Array
+(
+    [Name] => Athelstan
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 925-940
+    [ID] => 7
+)
+
+Array
+(
+    [Name] => Edmund
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 940-946
+    [ID] => 8
+)
+
+Array
+(
+    [Name] => Edred
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 946-955
+    [ID] => 9
+)
+
+Array
+(
+    [Name] => Edwy
+    [Country] => United Kingdom
+    [House] => House of Wessex
+    [Reign] => 955-959
+    [ID] => 10
+)
+
+-----

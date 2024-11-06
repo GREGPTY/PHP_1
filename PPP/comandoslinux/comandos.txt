@@ -1,0 +1,4 @@
+mkdir archivos_creados
+cd archivos_creados && touch nuevo.php && touch hola.js && touch hola.txt
+cf
+cd archivos_creados && touch au.tx
